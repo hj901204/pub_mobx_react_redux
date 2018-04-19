@@ -1,0 +1,118 @@
+
+.companyset-box{
+    //padding: 28px 33.5px;
+    // .companyset-title{
+    //     border-bottom: 1px solid #dfdfdf;
+    //     font-size: 14px;
+    //     color: #2E435A;
+    //     line-height: 24px;
+    //     padding-left: 12px;
+    //     position: relative;  
+    // }
+    // .companyset-title::before{
+    //     content: "";
+    //     height: 15px;
+    //     position: absolute;
+    //     width: 3px;
+    //     background: #ff7629;
+    //     top: 3px;
+    //     left: 1px;
+    //     display: inline-block;
+    // }
+    .companyset-content{
+         padding: 30px;
+        .companyset-name{
+            line-height: 20px;
+            font-size: 14px;
+            color:#525251;
+            text-align: center;
+        }
+        .companyset-info{
+            line-height: 20px;
+            font-size: 12px;
+            color:#a4a4a4;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        // .companyset-con{
+        //     display: flex;
+        //     .companyset-first{
+        //         display: flex;
+        //         flex-direction: column;
+        //         margin-right: 100px;
+        //         p{
+        //             margin-top: 30px;
+        //             line-height: 20px;
+        //             font-size: 14px;
+        //             color:#4b4b4b;
+        //             .company-tit{
+        //                 width: 105px;
+        //                 display: inline-block;
+        //                 text-align: right;
+        //             }
+        //             .company-text{
+        //                 margin-left: 20px;
+        //             }
+        //         }
+        //         .companyset-contact{
+        //             margin-top: 70px;
+        //         }
+        //         .companyset-logo{
+        //             margin-top: 63px;
+        //             display: flex;
+        //             img{
+        //                 margin-left: 20px;
+        //                 width: 140px;
+        //                 height: 80px;
+        //             }
+        //         }
+        //     }
+        // }
+        .companyset-logo{
+            margin-bottom: 20px;
+            text-align: center;
+             img{
+                  width: 140px;
+                  height: 80px;
+             }
+        }
+        .companyset-con{
+            display: flex;
+            justify-content:center;
+            .companyset-con-box{
+                 border:1px solid #ebebeb;
+                 padding: 20px 50px;
+                 padding-bottom: 10px;
+                  p{
+                 margin-bottom: 10px;
+                .company-tit{
+                    display: inline-block;
+                    width: 96px;
+                    color:#a1a0a0;
+                    font-size: 12px;
+                    text-align: right;
+                    vertical-align: top;
+                }
+                .company-text{
+                    max-width: 400px;
+                    display: inline-block;
+                    text-align: left;
+                    margin-left:10px;
+                    word-break: break-all;
+                    color:#4b4b4a;
+                }
+            }
+            }
+        }
+        .ant-btn{
+            margin-top: 20px;
+            width: 120px;
+            height: 30px;
+            line-height: 30px;
+        }
+        .company-set-button{
+            text-align: center;
+        }
+    }
+}
